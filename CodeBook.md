@@ -4,8 +4,8 @@ This code book describes each of the variables found in `tidyData.txt`
 
 ##Identifiers
 
-*subject - the ID of the participant
-*activitylabel - the type of activity performed when measurements were taken
+* subject - the ID of the participant
+* activitylabel - the type of activity performed when measurements were taken
 
 ##Types of Activities Performed
 
@@ -18,9 +18,7 @@ This code book describes each of the variables found in `tidyData.txt`
 
 ##Measurements
 
-Measurements prefixed with 't' denote time domain signals while those prefixed with 'f' indicate frequency domain signals.
-These signals were used to estimate variables of the feature vector for each pattern.  
-'-xyz' is used to denote 3-axial signals in the z, y and z directions.
+Measurements prefixed with 't' denote time domain signals while those prefixed with 'f' indicate frequency domain signals. Measurements suffixed with '-x', '-y' or '-z' denote signals in the x, y and z directions respectively. These signals were used to estimate variables of the feature vector for each pattern. 
 
 * tbodyaccmeanx
 * tbodyaccmeany
